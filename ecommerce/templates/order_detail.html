@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  {% load custom_filters %}
+  {% load static %}
+  <meta charset="UTF-8">
+  <title>Bon de Commande</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+  <style>
+    body {
+      font-family: Unbounded;
+      background-image: url("{% static 'ecommerce/images/_ (4) (1).jpeg' %}");
+      background-size: cover;         /* or 'contain' */
+      background-position: center;    /* or 'top', 'bottom', etc. */
+      background-repeat: no-repeat;
+      margin: 0;
+      padding: 20px;
+      color: #333;
+    }
+
+    .order-detail-container {
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      padding: 50px;
+      border-radius: 62px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.57);
+    }
+
+    .logo {
+      max-width: 220px;
+      margin: auto;
+      padding: 20px;
+      border-bottom: 2px solid #BDBDBD;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 25px;
+      font-size: 24px;
+      color: #2c3e50;
+    }
+
+    .order-summary {
+      display: flex;
+      justify-content: space-between; /* or 'start', 'center' based on design */
+      align-items: flex-start; /* keep tops aligned */
+      gap: 2rem; /* optional spacing between the two */
+      flex-wrap: wrap; /* optional for responsive behavior */
+    }
+    .order-summary p {
+      font-size: 16px;
+      margin: 10px 0;
+      line-height: 1.6;
+
+    }
+
+    strong {
+      color: #1a1a1a;
+    }
+
+    a.button {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 12px 24px;
+      background: #e63946;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      text-align: center;
+      transition: background 0.3s ease;
+    }
+
+    a.button:hover {
+      background: #c62828;
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 30px;
+      justify-content: center;
+    }
+
+    .left {
+      max-width: 270px;
+      margin-right: auto;
+      padding: 20px;
+      border-right: 2px solid #BDBDBD;
+      background-color: transparent;
+    }
+    .left-top {
+      max-height: 300px;
+      padding-bottom: 20px;
+      border-bottom: 2px solid #BDBDBD;
+    }
+
+    .right {
+      max-width: 370px;
+      margin-right: auto;
+      margin-top: auto;
+      padding: 20px;
+      background-color: transparent;
+    }
+
+    .right-top {
+      max-height: 200px;
+      max-width: 700px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #ea0f0f;
+    }
+
+    .right-center-f {
+      border-bottom: 2px solid #ea0f0f;
+      max-width: 500px;
+    }
+
+    .right-center-s {
+      width: 300px;
+      border-bottom: 2px solid #ea0f0f;
+    }
+    .right-bottom {
+      max-width: 400px;
+    }
+
+    .progress-container {
+      margin-top: 50px;
+      width: 100%;
+      background-color: #e0e0e0;
+      border-radius: 20px;
+      height: 18px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .progress-bar {
+      height: 100%;
+      background-color: #ea0f0f;
+      width: 0;
+      transition: width 0.5s ease-in-out;
+      border-radius: 20px;
+    }
+
+    .progress-labels {
+      display: flex;
+      justify-content: space-between;
+      font-size: 12px;
+      gap: 50px;
+      margin-top: 8px;
+      color: #757575;
+    }
+
+
+    @media (max-width: 600px) {
+      .order-detail-container {
+        padding: 20px;
+      }
+
+      h2 {
+        font-size: 20px;
+      }
+
+      .order-summary p {
+        font-size: 14px;
+      }
+
+      a.button {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+{% load django_browser_reload %}
+{% django_browser_reload_script %}
+
+<div class="order-detail-container">
+  <img src="{% static 'ecommerce/images/logo_carrefour_transparency.png' %}" alt="Logo" class="logo">
+
+  <section class="order-summary">
+    <div class="left">
+      <div class="left-top">
+        <p>Nom & Prénom de Client :<br><strong style="color: #757575">{{ last_name }} {{ first_name }}</strong></p>
+        <p>Numéro de Téléphone :<br><strong style="color: #757575">{{ cphonenumber }}</strong></p>
+        <p>Adresse :<br><strong style="color: #757575">{{ adresse }}</strong></p>
+
+      </div>
+      <div class="left-bottom">
+        <p>Information de Fournisseur :<br><strong style="color: #757575">EURL LE CARREFOUR DE L’EMBALLAGE
+          Cité Aouadi Maamar Section 06
+          Lot N°225. Boufarik W. Blida
+          RC: 09 00 0808304 B14
+          NIF: 00140 90808 30412
+          ART: 09040192061
+          NIS: 001409040008072</strong></p>
+        <p>Contact de Fournisseur :<br><strong style="color: #757575; word-wrap: break-word;">Contact@lecarrefouremballage.dz</strong></p>
+
+      </div>
+    </div>
+
+    <div class="right">
+      {% if order.p_variant %}
+      <div class="right-top">
+        <p><strong>ID : </strong><strong style="color: #757575">{{ order_number }}</strong></p>
+        <p><strong>NUMÉRO DE COMMANDE : </strong><strong style="color: #757575">#{{ order.id }}</strong></p>
+
+        {% if order.payment_status == "success" %}
+        <a href="{% url 'download_receipt_pdf' order.id %}" class="download-btn" style="text-decoration: none; color: #ea0f0f">
+          <i class="fas fa-file-download"></i> Télécharger le reçu
+        </a>
+        {% endif %}
+      </div>
+      {% endif %}
+      <div class="right-center-f">
+        <p><strong>Votre Commande est en : </strong><br><strong style="color: #757575; text-transform: uppercase">{{ order.status }}</strong></p>
+        <p><strong>COMMANDÉ LE : </strong><br><strong style="color: #757575">{{ created_at }}</strong></p>
+      </div>
+      <div class="right-center-s">
+        {% if payment_type == "CIB" %}
+        <p><strong>Méthode de Paiement : </strong><br>
+          <strong style="color: #757575">{{ payment_type }} / EDAHABIA</strong>
+        </p>
+        {% else %}
+        <p>Méthode de Paiement : <br>
+          <strong style="color: #757575">Paiement à la livraison</strong>
+        </p>
+        {% endif %}
+        <p><strong>Status de Paiement :</strong><br><strong style="color: #757575; text-transform: uppercase; color: #ea0f0f">{{ order.payment_status }}</strong></p>
+        <p><strong>Quantité :</strong> {{ order.quantity }} x {{ order.quantity_type.name }}</p>
+        <p><strong>Prix total :</strong> {{ order.total_price|floatformat:2 }} DA</p>
+
+      </div>
+      <div class="right-bottom">
+        {% comment %} Order status progress bar with step highlighting {% endcomment %}
+
+        {% with total=steps|length %}
+        {% for step in steps %}
+        {% if order.status == step %}
+        {% widthratio forloop.counter total 100 as progress %}
+        {% endif %}
+        {% endfor %}
+
+        <!-- Progress Bar -->
+        <div class="progress-container" style="background: #eee; height: 6px; border-radius: 4px; overflow: hidden;">
+          <div class="progress-bar" style="background: #ea0f0f; width: {{ progress|default:'0' }}%; height: 100%; transition: width 0.5s;"></div>
+        </div>
+
+        <!-- Labels with Current Step Highlight -->
+        <div class="progress-labels" style="display: flex; justify-content: space-between; font-size: 12px; margin-top: 5px;">
+          {% for label in steps %}
+          <span style="
+          color: {% if order.status == label %}#ea0f0f{% else %}#888{% endif %};
+          font-weight: {% if order.status == label %}bold{% else %}normal{% endif %};
+        ">
+          {{ label|title }}
+        </span>
+          {% endfor %}
+        </div>
+
+        {% endwith %}
+      </div>
+
+
+    </div>
+
+
+  </section>
+
+  <div class="actions">
+    <a href="{% url 'orders' user.id %}" class="button" style="background:#2c3e50;">← Retour aux commandes</a>
+  </div>
+</div>
+
+</body>
+</html>

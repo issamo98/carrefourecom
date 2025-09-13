@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Paiement Annulé</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .animate-fade-in-up {
+            animation: fadeInUp 0.8s ease-out;
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-tr from-yellow-100 via-white to-yellow-50 min-h-screen flex items-center justify-center p-6">
+
+<div class="bg-white border border-yellow-200 shadow-2xl rounded-3xl px-8 py-10 max-w-md w-full text-center animate-fade-in-up">
+    <div class="flex justify-center mb-6">
+        <div class="rounded-full bg-yellow-100 p-4 border-4 border-yellow-300">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-yellow-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 5.636l-1.414 1.414M6.343 17.657l-1.414-1.414M5.636 5.636l1.414 1.414M17.657 17.657l1.414-1.414M12 3v2m0 14v2m9-9h-2M5 12H3m15.364-6.364l-1.414 1.414M6.343 6.343L4.929 4.929" />
+            </svg>
+        </div>
+    </div>
+    <h1 class="text-3xl font-bold text-gray-800 mb-3">Paiement Annulé</h1>
+    <p class="text-gray-600 mb-6">Vous avez annulé le processus de paiement. Aucun montant n'a été débité.</p>
+
+    <a href="/" class="inline-block px-6 py-3 bg-yellow-500 text-white font-medium rounded-full shadow hover:bg-yellow-600 transition">
+        ← Retour à l'accueil
+    </a>
+</div>
+
+</body>
+</html>

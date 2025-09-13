@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="{{ cib_url }}" method="POST" id="cibForm">
+  <input type="hidden" name="merchant_id" value="{{ merchant_id }}">
+  <input type="hidden" name="terminal_id" value="{{ terminal_id }}">
+  <input type="hidden" name="transaction_id" value="{{ transaction_id }}">
+  <input type="hidden" name="amount" value="{{ amount }}">
+  <input type="hidden" name="return_url" value="{{ return_url }}">
+  <input type="hidden" name="notify_url" value="{{ notify_url }}">
+  <input type="hidden" name="signature" value="{{ signature }}">
+  <p>Redirection vers le paiement en cours...</p>
+  <button type="submit">Payer maintenant</button>
+</form>
+
+<script>
+  // Auto-submit after a short delay
+  window.onload = () => {
+    document.getElementById("cibForm").submit();
+  };
+</script>
+
+</body>
+</html>

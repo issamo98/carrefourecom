@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Payment Debug</title>
+  <style>
+    .debug-info {
+      background: #f5f5f5;
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 5px;
+    }
+    pre { overflow-x: auto; }
+  </style>
+</head>
+<body>
+<h1>Payment Debug Information</h1>
+
+<div class="debug-info">
+  <h3>Order Details</h3>
+  {% if order %}
+  <p><strong>ID:</strong> {{ order.id }}</p>
+  <p><strong>Amount:</strong> {{ order.total_price }} DZD</p>
+  <p><strong>Status:</strong> {{ order.payment_status }}</p>
+  {% else %}
+  <p>No order information available</p>
+  {% endif %}
+</div>
+
+<div class="debug-info">
+  <h3>Payment Response</h3>
+  <pre>{{ details|pprint }}</pre>
+</div>
+
+<a href="/">Return to Home</a>
+</body>
+</html>

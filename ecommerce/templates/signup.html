@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign UP</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
+    <style>
+        @media (max-width: 768px) {
+            html, body {
+                overflow-x: hidden;
+
+            }
+
+            #lost {
+                color: #ea0f0f;
+                text-decoration: none;
+            }
+
+            #oval-1 {
+                position: relative;
+                left: 0vw;
+                top: 0vh;
+                width: 80vw;
+                height: 70vw;
+                background: linear-gradient(180deg, #ffffff 0%, #d32f2f 100%);
+                border-radius: 50%;
+                background-blend-mode: normal;
+                box-shadow: 18px 40px 4px 31px rgba(0, 0, 0, 0.25);
+                filter: blur(41px);
+            }
+
+            #logo {
+                display: block;
+                margin: auto;
+                max-height: 20vw;
+                position: relative;
+                z-index: 10;
+                left: 0vw;
+                top: 5vh;
+
+            }
+
+            /* Center the form on the page */
+            .form-login {
+                width: 100%;
+                margin: 50px auto;
+                padding: 20px;
+                position: relative;
+                top: 0px;
+            }
+
+            /* Style the table */
+            .formcontrol {
+                width: 100%;
+                border-collapse: collapse;
+            }
+
+            /* Style the table labels */
+            /* Style the input fields */
+            #form_input input {
+                width: 50vw;
+                height: 2px;
+                padding: 30px;
+                font-size: 15px;
+                font-family: Unbounded;
+                background-color: #000000;
+                color: #ffffff;
+                border-radius: 200px;
+                outline: none;
+                transition: background-color 0.3s ease-in-out;
+                position: relative;
+                margin-bottom: 15vh; /* Adds 20px space between each element */
+                left: -35vw;
+                top: -15vh;
+
+            }
+
+            /* Input focus effect */
+            #form_input:focus {
+                border-color: #000000;
+                border: 1px #ffffff;
+            }
+
+            /* Submit button */
+            .login {
+                width: 90%;
+                padding: 5vw 5vw;
+                font-size: 5vw;
+                font-weight: 300;
+                font-family: Unbounded;
+                color: #000000;
+                background: #ea0f0f;
+                border: none;
+                border-radius: 150px;
+                cursor: pointer;
+                transition: background 0.3s;
+                display: block;
+                top: -20vh;
+                cursor: pointer;
+                position: relative;
+                left: -2vw;
+            }
+
+            /* Submit button hover effect */
+            #tag {
+                position: relative;
+                font-family: Unbounded;
+                color: #000000;
+                border-bottom: 2px #ea0f0f;
+                font-weight: 300;
+                font-size: 20px;
+                top: -270px;
+                left: 0vw;
+
+            }
+
+            .resetp {
+                position: relative;
+                top: -20vh;
+                font-family: Unbounded;
+                font-weight: 400;
+                font-size: 4vw;
+                color: #000000;
+                left: 6vw;
+            }
+
+            #title {
+                position: absolute;
+                font-family: Unbounded;
+                font-weight: 300;
+                font-size: 25px;
+                top: -250px;
+                left: 17vw;
+                border-bottom: 2px solid white;
+            }
+            .signupform {
+                top: 100px !important;
+                left: 0px !important;
+                margin-bottom: 100px !important;
+            }
+        }
+        @media screen and (min-width: 769px) and (max-width: 1200px) {
+            html, body {
+                overflow-x: hidden;
+                min-height: 100%;
+
+            }
+
+
+            #oval-1 {
+                position: relative;
+                left: -20vw;
+                top: 0px;
+                width: 700px;
+                height: 700px;
+                background: linear-gradient(180deg, #ffffff 0%, #d32f2f 100%);
+                border-radius: 50%;
+                background-blend-mode: normal;
+                box-shadow: 18px 40px 4px 31px rgba(0, 0, 0, 0.25);
+                filter: blur(41px);
+            }
+
+            #logo {
+                display: block;
+                margin: auto;
+                max-height: 20vw;
+                position: absolute;
+                z-index: 10;
+                left: 50%;
+                transform: translateX(-50%);
+                top: 10%;
+
+            }
+
+
+            #form_input input {
+                width: 25vw;
+                height: 50px;
+                font-size: 15px;
+                font-family: Unbounded;
+                background-color: #000000;
+                color: #ffffff;
+                border-radius: 200px;
+                outline: none;
+                transition: background-color 0.3s ease-in-out;
+                position: relative;
+                margin-bottom: 50px; /* Adds 20px space between each element */
+                left: 35%;
+                transform: translateX(-50%);
+                top: -15vh;
+
+            }
+
+
+
+            #lost {
+                color: #ea0f0f;
+                text-decoration: none;
+
+            }
+
+            .resetp {
+                position: relative;
+                font-family: Unbounded;
+                font-weight: 400;
+                font-size: 15px;
+                color: #000000;
+                left: 88%;
+                transform: translateX(-50%);
+                top: -460px;
+            }
+            .signupform {
+                position: relative;
+                left: 27vw !important;
+            }
+        }
+        @media (min-width: 1201px) {
+            html, body {
+                overflow-x: hidden;
+                min-height: 100%;
+
+            }
+
+
+            #oval-1 {
+                position: relative;
+                left: -20vw;
+                top: 0px;
+                width: 700px;
+                height: 700px;
+                background: linear-gradient(180deg, #ffffff 0%, #d32f2f 100%);
+                border-radius: 50%;
+                background-blend-mode: normal;
+                box-shadow: 18px 40px 4px 31px rgba(0, 0, 0, 0.25);
+                filter: blur(41px);
+            }
+
+            #logo {
+                display: block;
+                margin: auto;
+                max-height: 20vw;
+                position: absolute;
+                z-index: 10;
+                left: 50%;
+                transform: translateX(-50%);
+                top: 10%;
+
+            }
+
+
+            #form_input input {
+                width: 25vw;
+                height: 50px;
+                font-size: 15px;
+                font-family: Unbounded;
+                background-color: #000000;
+                color: #ffffff;
+                border-radius: 200px;
+                outline: none;
+                transition: background-color 0.3s ease-in-out;
+                position: relative;
+                margin-bottom: 50px; /* Adds 20px space between each element */
+                left: 35%;
+                transform: translateX(-50%);
+                top: -15vh;
+
+            }
+
+
+
+            #lost {
+                color: #ea0f0f;
+                text-decoration: none;
+
+            }
+
+            .resetp {
+                position: relative;
+                font-family: Unbounded;
+                font-weight: 400;
+                font-size: 15px;
+                color: #000000;
+                left: 88%;
+                transform: translateX(-50%);
+                top: -460px;
+            }
+        }
+
+
+    </style>
+</head>
+
+<body class="bg-gray-100 min-h-screen relative">
+
+{% load django_browser_reload %}
+{% django_browser_reload_script %}
+<div class="backelements">
+    <img id="logo" src="{% static 'ecommerce/images/logo_carrefour_transparency.png' %}">
+<div id="oval-1"></div>
+</div>
+
+
+<div class="signupform absolute top-[200px] left-[500px] w-full max-w-md p-8 bg-white rounded-xl shadow-md transform transition-all duration-300 hover:scale-[1.02] mt-20">
+    <h1 class="text-2xl font-bold text-center text-gray-800 mb-6" style="font-family: Unbounded;">Créer un compte</h1>
+
+    {% load form_tags %}
+
+    <form method="post" action="{% url 'signup' %}" class="space-y-4" style="font-family: Unbounded;">
+        {% csrf_token %}
+
+        <div>
+            <label class="block text-gray-600 font-medium mb-1">{{ form.username.label }}</label>
+            {{ form.username|add_class:"w-full px-3 py-2 border rounded-md focus:outline-none focus:ring focus:border-blue-300" }}
+        </div>
+
+        <div>
+            <label class="block text-gray-600 font-medium mb-1">{{ form.password1.label }}</label>
+            {{ form.password1|add_class:"w-full px-3 py-2 border rounded-md focus:outline-none focus:ring focus:border-blue-300" }}
+        </div>
+
+        <div>
+            <label class="block text-gray-600 font-medium mb-1">{{ form.password2.label }}</label>
+            {{ form.password2|add_class:"w-full px-3 py-2 border rounded-md focus:outline-none focus:ring focus:border-blue-300" }}
+        </div>
+
+        <div>
+            <label class="block text-gray-600 font-medium mb-1">{{ form.first_name.label }}</label>
+            {{ form.first_name|add_class:"w-full px-3 py-2 border rounded-md focus:outline-none focus:ring focus:border-blue-300" }}
+        </div>
+
+        <div>
+            <label class="block text-gray-600 font-medium mb-1">{{ form.last_name.label }}</label>
+            {{ form.last_name|add_class:"w-full px-3 py-2 border rounded-md focus:outline-none focus:ring focus:border-blue-300" }}
+        </div>
+
+        <div>
+            <label class="block text-gray-600 font-medium mb-1">{{ form.email.label }}</label>
+            {{ form.email|add_class:"w-full px-3 py-2 border rounded-md focus:outline-none focus:ring focus:border-blue-300" }}
+        </div>
+
+        <div>
+            <label class="block text-gray-600 font-medium mb-1">{{ form.number.label }}</label>
+            {{ form.number|add_class:"w-full px-3 py-2 border rounded-md focus:outline-none focus:ring focus:border-blue-300" }}
+        </div>
+
+        <div>
+            <label class="block text-gray-600 font-medium mb-1">{{ form.adresse.label }}</label>
+            {{ form.adresse|add_class:"w-full px-3 py-2 border rounded-md focus:outline-none focus:ring focus:border-blue-300" }}
+        </div>
+
+        <button type="submit"
+                class="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-md transition duration-200">
+            S'inscrire
+        </button>
+
+        <p class="text-sm text-center text-gray-600 mt-4">
+            Déjà un compte ?
+            <a id="lost" href="{% url 'login' %}" class="text-blue-600 hover:underline">Connectez-vous ici</a>
+        </p>
+    </form>
+</div>
+</body>
+</html>

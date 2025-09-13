@@ -1,0 +1,1056 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    {% load custom_tags %}
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Détails Produit</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link
+            href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+            rel="stylesheet"
+    />
+    <script>
+        $('button').on('click', function(){
+            $('button').removeClass('selected');
+            $(this).addClass('selected');
+        });
+
+
+
+        document.addEventListener("DOMContentLoaded", function() {
+            let buttons = document.querySelectorAll(".contenance-btn");
+            let hiddenInput = document.getElementById("selected_contenance");
+
+            buttons.forEach(button => {
+                button.addEventListener("click", function() {
+                    // Remove 'selected' class from all buttons
+                    buttons.forEach(btn => btn.classList.remove("selected"));
+
+                    // Add 'selected' class to the clicked button
+                    this.classList.add("selected");
+
+                    // Store the selected value in the hidden input
+                    hiddenInput.value = this.dataset.value;
+                });
+            });
+        });
+    </script>
+    <style>
+        label[for="main_variant"],
+        label[for="quantity_type"],
+        label[for="p_variant"] {
+            display: block;
+            font-family: 'Unbounded', sans-serif;
+            font-size: 5vw;
+            font-weight: 500;
+            color: black;
+            margin-top: 10vh;
+            margin-left: 2vw;
+        }
+
+        /* Style for the select dropdowns */
+        #main_variant,
+        #quantity_type,
+        #p_variant {
+            display: block;
+            width: 90vw;
+            margin: 2vh auto;
+            padding: 3vw 4vw;
+            font-family: 'Unbounded', sans-serif;
+            font-size: 4.5vw;
+            font-weight: 300;
+            border: 3px solid #ea0f0f;
+            border-radius: 50px;
+            background-color: #fff;
+            color: #000;
+            appearance: none; /* optional to hide native arrow */
+        }
+
+
+        @media (max-width: 768px) {
+            html, body {
+                overflow-x: hidden;
+
+            }
+
+            h1, p {
+                font-family: Unbounded;
+            }
+
+            .nav {
+                position: fixed;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background-color: #000000;
+                width: 100%;
+                height: 80px;
+                border-radius: 20px;
+                box-shadow: 0px -8px 14px 8px rgba(0, 0, 0, 0.25);
+                margin-inline: auto;
+                z-index: 10000;
+                line-height: 80px;
+
+            }
+
+            .nav-list {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 15vw;
+                padding: 0;
+            }
+
+            .nav-link {
+                color: #ffffff;
+                font-size: 8vw;
+                transition: color .4s;
+                text-decoration: none;
+
+            }
+
+            .nav-link:active {
+                transform: scale(0.95);
+                opacity: 0.8;
+            }
+
+            .nav-link:focus {
+                outline: 2px solid #ea0f0f; /* Highlight effect */
+            }
+
+            a {
+                touch-action: manipulation; /* Reduces delay */
+                cursor: pointer;
+            }
+
+            #oval-2 {
+                position: absolute;
+                left: 8vw;
+                top: 6vh;
+                width: 70vw;
+                height: 100vw;
+                background: linear-gradient(180deg, #ffffff 0%, #d32f2f 100%);
+                border-radius: 50%;
+                background-blend-mode: normal;
+                box-shadow: 0px 79px 4px 16px rgba(0, 0, 0, 0.25);
+                filter: blur(41px);
+            }
+
+            #oval-3 {
+                position: absolute;
+                left: -650px;
+                top: 40vh;
+                width: 70vw;
+                height: 100vw;
+                background: linear-gradient(180deg, #ffffff 0%, #d32f2f 100%);
+                border-radius: 50%;
+                background-blend-mode: normal;
+                box-shadow: 0px 79px 4px 16px rgba(0, 0, 0, 0.25);
+                filter: blur(41px);
+            }
+
+            #thumb {
+                position: relative;
+                object-fit: cover;
+                width: 95vw;
+                height: 70vw;
+                border-radius: 155px;
+                top: 00px;
+                left: 0vw;
+                box-shadow: -5px 3px 171px -17px rgba(0, 0, 0, 0.75);
+            }
+
+            .product-info {
+                position: relative;
+                width: 100vw;
+                min-height: 100%;
+            }
+
+            #p-cat {
+                position: relative;
+                font-family: Unbounded;
+                font-weight: 400;
+                font-size: 6vw;
+                color: #ffffff;
+                border-bottom: 2px solid #000000;
+                top: 2vh;
+                left: 3vw;
+            }
+
+            #p-title {
+                position: relative;
+                font-family: Unbounded;
+                text-wrap: nowrap;
+                font-weight: 500;
+                font-size: 6vw;
+                color: #ea0f0f;
+                top: 0vh;
+                left: 1vh;
+                border-bottom: 2px solid #000000;
+
+            }
+
+            .p-contenance {
+                display: flex;
+                gap: 1vw;
+                position: relative;
+                left: 1vw;
+            }
+
+            .contenance-btn {
+                position: relative;
+                padding: 2vw 5vw;
+                background-color: transparent;
+                border: 1px solid;
+                border-radius: 30px;
+                list-style: none;
+                font-family: Unbounded;
+                font-weight: 400;
+                font-size: 3vw;
+                color: #000000;
+                top: 2vh;
+                transition: border 0.2s; /* Smooth transition */
+
+            }
+
+            .contenance-btn.selected {
+                border: 4px solid #ea0f0f;
+            }
+
+            #ml {
+                text-decoration: none;
+            }
+
+            #p-variant {
+                position: relative;
+                padding: 3vw 3vw;
+                background-color: #ea0f0f;
+                text-align: center;
+                border-radius: 40px;
+                font-family: Unbounded;
+                font-weight: 400;
+                font-size: 4vw;
+                left: 2vw;
+                top: 5vh;
+            }
+
+            #p-price {
+                position: relative;
+                font-family: Unbounded;
+                font-weight: 800;
+                border-bottom: 2px solid #000000;
+
+                font-size: 6vw;
+                color: #ea0f0f;
+                top: 7vh;
+                left: 1vw;
+            }
+
+            #quantity {
+                position: relative;
+                top: 13vh;
+                left: 1vw;
+                padding: 4vw 4vw;
+                border-radius: 50px;
+                border: 3px solid #ea0f0f;
+                font-family: Unbounded;
+                font-weight: 300;
+                font-size: 4vw;
+                color: black;
+            }
+
+            #quantity-label {
+                position: relative;
+                top: 9vh;
+                left: 1vw;
+                padding: 2vw 4vw;
+                border-radius: 25px;
+
+                border: 3px solid #ea0f0f;
+                font-family: Unbounded;
+                font-weight: 400;
+                font-size: 6vw;
+                color: black;
+            }
+
+            .form-submit-btn {
+                position: relative;
+                top: 18vh;
+                left: 2vw;
+                padding: 3vw 22vw;
+                border-radius: 100px;
+                background-color: #000000;
+                color: #ffffff;
+                font-family: Unbounded;
+                font-weight: 200;
+                font-size: 6vw;
+                cursor: pointer;
+                margin-bottom: 400px;
+            }
+
+            .back-link {
+                position: relative;
+                top: 6vh;
+                left: 85vw;
+                font-size: 10vw;
+                color: #000000;
+                text-decoration: none;
+                z-index: 100;
+
+            }
+            .hide {
+                display: none;
+            }
+
+        }
+        @media screen and (min-width: 769px) and (max-width: 1200px) {
+            html, body {
+                overflow-x: hidden;
+
+            }
+
+            .nav {
+                position: fixed;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background-color: #000000;
+                width: 100%;
+                height: 100px;
+                border-radius: 0px;
+                box-shadow: 0px -8px 14px 8px rgba(0, 0, 0, 0.25);
+                margin-inline: auto;
+                z-index: 10000;
+                line-height: 100px;
+
+            }
+
+            .nav-list {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 12vw;
+                padding: 0;
+            }
+
+            .nav-link {
+                color: #ffffff;
+                font-size: 30px;
+                transition: color .4s;
+                text-decoration: none;
+
+            }
+
+            .nav-link:active {
+                transform: scale(0.95);
+                opacity: 0.8;
+            }
+
+            .nav-link:focus {
+                outline: 2px solid #ea0f0f; /* Highlight effect */
+            }
+
+            a {
+                touch-action: manipulation; /* Reduces delay */
+                cursor: pointer;
+            }
+
+            #oval-2 {
+                position: absolute;
+                left: 8vw;
+                top: 6vh;
+                width: 70vw;
+                height: 100vw;
+                background: linear-gradient(180deg, #ffffff 0%, #d32f2f 100%);
+                border-radius: 50%;
+                background-blend-mode: normal;
+                box-shadow: 0px 79px 4px 16px rgba(0, 0, 0, 0.25);
+                filter: blur(41px);
+            }
+
+            #oval-3 {
+                position: absolute;
+                left: -650px;
+                top: 40vh;
+                width: 70vw;
+                height: 100vw;
+                background: linear-gradient(180deg, #ffffff 0%, #d32f2f 100%);
+                border-radius: 50%;
+                background-blend-mode: normal;
+                box-shadow: 0px 79px 4px 16px rgba(0, 0, 0, 0.25);
+                filter: blur(41px);
+            }
+
+            #thumb {
+                position: relative;
+                object-fit: cover;
+                width: 50vw;
+                height: 300px;
+                border-radius: 155px;
+                top: 0px;
+                left: 50%;
+                transform: translateX(-50%);
+                box-shadow: -5px 3px 171px -17px rgba(0, 0, 0, 0.75);
+            }
+
+            .product-info {
+                position: relative;
+                width: 100vw;
+                min-height: 100%;
+            }
+
+            #p-cat {
+                position: relative;
+                font-family: Unbounded;
+                font-weight: 400;
+                font-size: 35px;
+                color: #ffffff;
+                border-bottom: 2px solid #000000;
+                top: 2vh;
+                left: 3vw;
+            }
+
+            #p-title {
+                position: relative;
+                font-family: Unbounded;
+                text-wrap: nowrap;
+                font-weight: 500;
+                font-size: 35px;
+                color: #ea0f0f;
+                top: 0vh;
+                left: 3vw;
+                border-bottom: 2px solid #000000;
+
+            }
+
+            .p-contenance {
+                display: flex;
+                gap: 1vw;
+                position: relative;
+                left: 1vw;
+            }
+
+            .contenance-btn {
+                position: relative;
+                padding: 10px 5vw;
+                background-color: transparent;
+                border: 1px solid;
+                border-radius: 30px;
+                list-style: none;
+                font-family: Unbounded;
+                font-weight: 400;
+                font-size: 20px;
+                color: #000000;
+                top: 15px;
+                left: 2vw;
+                transition: border 0.2s; /* Smooth transition */
+            }
+
+            .contenance-btn.selected {
+                border: 4px solid #ea0f0f;
+            }
+
+            #ml {
+                text-decoration: none;
+            }
+
+            #p-variant {
+                position: relative;
+                padding: 20px 1vw;
+                background-color: #ea0f0f;
+                text-align: center;
+                border-radius: 40px;
+                font-family: Unbounded;
+                font-weight: 400;
+                font-size: 15px;
+                left: 3vw;
+                top: 5vh;
+            }
+
+            #p-price {
+                position: relative;
+                font-family: Unbounded;
+                font-weight: 800;
+                border-bottom: 2px solid #000000;
+
+                font-size: 25px;
+                color: #ea0f0f;
+                top: 7vh;
+                left: 3vw;
+            }
+
+            #p-avail {
+                font-family: Unbounded;
+                font-size: 25px !important;
+                font-weight: 400;
+                left: 3vw !important;
+            }
+
+            #quantity {
+                position: relative;
+                top: 60px;
+                left: 5vw;
+                padding: 15px 2vw;
+                border-radius: 50px;
+                border: 3px solid #ea0f0f;
+                font-family: Unbounded;
+                font-weight: 300;
+                font-size: 20px;
+                color: black;
+            }
+
+            #quantity-label {
+                position: relative;
+                top: 60px;
+                left: 3vw;
+                padding: 15px 2vw;
+                border-radius: 25px;
+                border: 3px solid #ea0f0f;
+                font-family: Unbounded;
+                font-weight: 400;
+                font-size: 20px;
+                color: black;
+            }
+
+            .form-submit-btn {
+                position: relative;
+                top: 100px;
+                left: 2vw;
+                padding: 10px 3vw;
+                border-radius: 100px;
+                background-color: #000000;
+                color: #ffffff;
+                font-family: Unbounded;
+                font-weight: 200;
+                font-size: 25px;
+                cursor: pointer;
+                margin-bottom: 00px;
+            }
+
+            .back-link {
+                position: relative;
+                top: 30px;
+                left: 90vw;
+                font-size: 35px;
+                font-weight: 800;
+                color: #000000;
+                text-decoration: none;
+                z-index: 100;
+
+            }
+
+
+            #ordernum {
+                font-size: 1vw !important;
+            }
+
+            .hide {
+                position: relative;
+                font-family: Unbounded;
+                font-size: 20px;
+                margin-left: 10px;
+                color: #ea0f0f;
+            }
+
+            label[for="main_variant"],
+            label[for="quantity_type"],
+            label[for="p_variant"] {
+                font-size: 20px;
+                margin-top: 50px;
+                margin-left: 3vw;
+            }
+
+            #main_variant,
+            #quantity_type,
+            #p_variant {
+                width: 30vw;
+                font-size: 18px;
+                padding: 10px 20px;
+                border-radius: 40px;
+                position: relative;
+                top: -50px;
+                left: -50px;
+            }
+
+
+        }
+        @media (min-width: 1201px) {
+            html, body {
+                overflow-x: hidden;
+
+            }
+
+            .nav {
+                position: fixed;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background-color: #000000;
+                width: 100%;
+                height: 100px;
+                border-radius: 0px;
+                box-shadow: 0px -8px 14px 8px rgba(0, 0, 0, 0.25);
+                margin-inline: auto;
+                z-index: 10000;
+                line-height: 100px;
+
+            }
+
+            .nav-list {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 12vw;
+                padding: 0;
+            }
+
+            .nav-link {
+                color: #ffffff;
+                font-size: 30px;
+                transition: color .4s;
+                text-decoration: none;
+
+            }
+
+            .nav-link:active {
+                transform: scale(0.95);
+                opacity: 0.8;
+            }
+
+            .nav-link:focus {
+                outline: 2px solid #ea0f0f; /* Highlight effect */
+            }
+
+            a {
+                touch-action: manipulation; /* Reduces delay */
+                cursor: pointer;
+            }
+
+            #oval-2 {
+                position: absolute;
+                left: 8vw;
+                top: 6vh;
+                width: 70vw;
+                height: 100vw;
+                background: linear-gradient(180deg, #ffffff 0%, #d32f2f 100%);
+                border-radius: 50%;
+                background-blend-mode: normal;
+                box-shadow: 0px 79px 4px 16px rgba(0, 0, 0, 0.25);
+                filter: blur(41px);
+            }
+
+            #oval-3 {
+                position: absolute;
+                left: -650px;
+                top: 40vh;
+                width: 70vw;
+                height: 100vw;
+                background: linear-gradient(180deg, #ffffff 0%, #d32f2f 100%);
+                border-radius: 50%;
+                background-blend-mode: normal;
+                box-shadow: 0px 79px 4px 16px rgba(0, 0, 0, 0.25);
+                filter: blur(41px);
+            }
+
+            #thumb {
+                position: relative;
+                object-fit: cover;
+                width: 50vw;
+                height: 300px;
+                border-radius: 155px;
+                top: 0px;
+                left: 50%;
+                transform: translateX(-50%);
+                box-shadow: -5px 3px 171px -17px rgba(0, 0, 0, 0.75);
+            }
+
+            .product-info {
+                position: relative;
+                width: 100vw;
+                min-height: 100%;
+            }
+
+            #p-cat {
+                position: relative;
+                font-family: Unbounded;
+                font-weight: 400;
+                font-size: 35px;
+                color: #ffffff;
+                border-bottom: 2px solid #000000;
+                top: 2vh;
+                left: 3vw;
+            }
+
+            #p-title {
+                position: relative;
+                font-family: Unbounded;
+                text-wrap: nowrap;
+                font-weight: 500;
+                font-size: 35px;
+                color: #ea0f0f;
+                top: 0vh;
+                left: 3vw;
+                border-bottom: 2px solid #000000;
+
+            }
+
+            .p-contenance {
+                display: flex;
+                gap: 1vw;
+                position: relative;
+                left: 1vw;
+            }
+
+            .contenance-btn {
+                position: relative;
+                padding: 10px 5vw;
+                background-color: transparent;
+                border: 1px solid;
+                border-radius: 30px;
+                list-style: none;
+                font-family: Unbounded;
+                font-weight: 400;
+                font-size: 20px;
+                color: #000000;
+                top: 15px;
+                left: 2vw;
+                transition: border 0.2s; /* Smooth transition */
+            }
+
+            .contenance-btn.selected {
+                border: 4px solid #ea0f0f;
+            }
+
+            #ml {
+                text-decoration: none;
+            }
+
+            #p-variant {
+                position: relative;
+                padding: 20px 1vw;
+                background-color: #ea0f0f;
+                text-align: center;
+                border-radius: 40px;
+                font-family: Unbounded;
+                font-weight: 400;
+                font-size: 15px;
+                left: 3vw;
+                top: 5vh;
+            }
+
+            #p-price {
+                position: relative;
+                font-family: Unbounded;
+                font-weight: 800;
+                border-bottom: 2px solid #000000;
+
+                font-size: 25px;
+                color: #ea0f0f;
+                top: 7vh;
+                left: 3vw;
+            }
+
+            #p-avail {
+                font-family: Unbounded;
+                font-size: 25px !important;
+                font-weight: 400;
+                left: 3vw !important;
+            }
+
+            #quantity {
+                position: relative;
+                top: 60px;
+                left: 5vw;
+                padding: 15px 2vw;
+                border-radius: 50px;
+                border: 3px solid #ea0f0f;
+                font-family: Unbounded;
+                font-weight: 300;
+                font-size: 20px;
+                color: black;
+            }
+
+            #quantity-label {
+                position: relative;
+                top: 60px;
+                left: 3vw;
+                padding: 15px 2vw;
+                border-radius: 25px;
+                border: 3px solid #ea0f0f;
+                font-family: Unbounded;
+                font-weight: 400;
+                font-size: 20px;
+                color: black;
+            }
+
+            .form-submit-btn {
+                position: relative;
+                top: 100px;
+                left: 2vw;
+                padding: 10px 3vw;
+                border-radius: 100px;
+                background-color: #000000;
+                color: #ffffff;
+                font-family: Unbounded;
+                font-weight: 200;
+                font-size: 25px;
+                cursor: pointer;
+                margin-bottom: 00px;
+            }
+
+            .back-link {
+                position: relative;
+                top: 30px;
+                left: 90vw;
+                font-size: 35px;
+                font-weight: 800;
+                color: #000000;
+                text-decoration: none;
+                z-index: 100;
+
+            }
+
+
+            #ordernum {
+                font-size: 1vw !important;
+            }
+
+            .hide {
+                position: relative;
+                font-family: Unbounded;
+                font-size: 20px;
+                margin-left: 10px;
+                color: #ea0f0f;
+            }
+
+            label[for="main_variant"],
+            label[for="quantity_type"],
+            label[for="p_variant"] {
+                font-size: 20px;
+                margin-top: 50px;
+                margin-left: 3vw;
+            }
+
+            #main_variant,
+            #quantity_type,
+            #p_variant {
+                width: 30vw;
+                font-size: 18px;
+                padding: 10px 20px;
+                border-radius: 40px;
+                position: relative;
+                top: -50px;
+                left: -50px;
+            }
+
+
+
+        }
+
+    </style>
+
+
+
+</head>
+<body>
+
+{% if messages %}
+<div class="messages" style="font-family: Unbounded; font-weight: 600; font-size: 20px; color: #ea0f0f;">
+    {% for message in messages %}
+    <div class="alert alert-{{ message.tags }}">
+        {{ message }}
+    </div>
+    {% endfor %}
+</div>
+{% endif %}
+{% load django_browser_reload %}
+{% django_browser_reload_script %}
+
+<nav class="nav">
+    <ul class="nav-list">
+        <li>
+            <a href="{% url 'home' %}" class="nav-link">
+                <i class="ri-home-line"><span class="hide">Acceuil</span></i>
+            </a>
+        </li>
+        <li>
+            <a href="{% url 'products' %}" class="nav-link">
+                <i class="ri-store-line"><span class="hide">Catalog</span></i>
+            </a>
+        </li>
+        <li>
+            <a href="{% url 'orders' user.id %}" class="nav-link">
+                <i class="ri-shopping-bag-line"><span class="hide">Commandes</span></i>
+            </a>
+
+            <span id="ordernum" style="position: relative; top: -30px; font-family: Unbounded; font-size: 4vw; font-weight: 800; color: #ea0f0f">{{ user.orders.all|length }}</span>
+
+        </li>
+        <li>
+            <a href="{% url 'profile' user.id %}" class="nav-link">
+                <i class="ri-user-line"><span class="hide">Profile</span></i>
+            </a>
+        </li>
+    </ul>
+</nav>
+
+<a href="{% url 'products' %}" class="back-link">
+    <i class="ri-arrow-left-line"></i>
+</a>
+
+<div class="backelements">
+    <div id="oval-2"></div>
+    <div id="oval-3"></div>
+
+
+</div>
+<div class="productinfo-container">
+    <div class="product-info">
+        <form class="form" method="post" action="{% url 'add_to_cart' product.id %}">
+            {% csrf_token %}
+
+            <div class="img-container">
+                <img id="thumb" src="{{ product.image.url }}">
+            </div>
+
+            <p id="p-cat">{{ product.category.name }}</p>
+            <h1 id="p-title">{{ product.name }}</h1>
+
+            <!-- Main Variant (ex: 1L, 5L) -->
+            <label for="main_variant">Contenance</label>
+            <select name="main_variant" id="main_variant" required>
+                <option disabled selected>-- Choisir contenance --</option>
+                {% for mv in main_variants %}
+                <option value="{{ mv.id }}">{{ mv.value }}</option>
+                {% endfor %}
+            </select>
+
+            <!-- Quantity Type (ex: Carton, Palette) -->
+            <label for="quantity_type">Type de Quantité</label>
+            <select name="quantity_type" id="quantity_type" required>
+                <option disabled selected>-- Choisir type --</option>
+                {% for mv in main_variants %}
+                {% for qt in mv.quantity_types.all %}
+                <option value="{{ qt.id }}" data-mainvariant="{{ mv.id }}" data-name="{{ qt.name }}" data-price="{{ qt.price }}" data-unit="{{ qt.unit_count }}" style="display: none;">
+                    {{ qt.name }} ({{ qt.unit_count }} unités / {{ qt.name }} - {{ qt.price }} / Unité DA)
+                </option>
+                {% endfor %}
+                {% endfor %}
+            </select>
+
+
+
+            <!-- Optional Product Variant (ex: Bouchon) -->
+            <label for="p_variant">Variante optionnelle</label>
+            <select id="p_variant" name="p_variant">
+                <option value="" data-price="0">Sans variante</option>
+                {% for variant in variants %}
+                <option
+                        value="{{ variant.id }}"
+                        data-price="{{ variant.additional_price }}"
+                >
+                    {{ variant.name }} - {{ variant.value }} (+{{ variant.additional_price }} DA)
+                </option>
+                {% endfor %}
+            </select>
+
+
+            <!-- Price info (optional: JavaScript can update this dynamically) -->
+            <h1 id="p-price">{{ product.price }} DA</h1>
+
+            {% if product.stock > 0 %}
+            <h1 id="p-avail" style="color: #b5e742; position: relative; top: 7vh; font-size: 6vw; left: 1vw; border-bottom: 2px solid #000000;">En Stock</h1>
+
+            <div class="form-group">
+                <label id="quantity-label" for="quantity">
+                    Quantité / <span id="qt-name-placeholder">Type</span> :
+                </label>
+                <input type="text" id="quantity" name="quantity" required>
+            </div>
+            <button class="form-submit-btn" type="submit">Commander</button>
+            {% else %}
+            <h1 id="p-avail" style="color: #ea0f0f; position: relative; top: 10vh; font-size: 5vw; left: 2vw; border-bottom: 2px solid #000000; margin-bottom: 50vw">Rupture De Stock</h1>
+            <button class="form-submit-btn" type="submit" style="display: none;">Commander</button>
+            {% endif %}
+        </form>
+    </div>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const mainVariantSelect = document.getElementById("main_variant");
+        const quantityTypeSelect = document.getElementById("quantity_type");
+        const variantSelect = document.getElementById("p_variant");
+        const quantityInput = document.getElementById("quantity");
+        const priceDisplay = document.getElementById("p-price");
+
+        function filterQuantityTypes(mainVariantId) {
+            const options = quantityTypeSelect.querySelectorAll("option[data-mainvariant]");
+            options.forEach(opt => {
+                opt.style.display = opt.getAttribute("data-mainvariant") === mainVariantId ? "block" : "none";
+            });
+            quantityTypeSelect.value = "";
+            updatePrice();  // Reset price when filtering
+        }
+
+        function updatePrice() {
+            const quantity = parseInt(quantityInput.value) || 1;
+
+            const qtOption = quantityTypeSelect.selectedOptions[0];
+            const unitCount = parseInt(qtOption?.getAttribute("data-unit")) || 0;
+            const unitPrice = parseFloat(qtOption?.getAttribute("data-price")) || 0;
+
+            const variantOption = variantSelect.selectedOptions[0];
+            const variantPrice = parseFloat(variantOption?.getAttribute("data-price")) || 0;
+
+            const totalUnits = quantity * unitCount;
+            const basePrice = totalUnits * unitPrice;
+            const additionalPrice = variantPrice * totalUnits;
+
+            const total = (basePrice + additionalPrice).toFixed(2);
+            priceDisplay.textContent = `${total} DA`;
+        }
+
+        function updateQuantityLabel() {
+            const qtOption = quantityTypeSelect.selectedOptions[0];
+            const qtNameSpan = document.getElementById("qt-name-placeholder");
+
+            if (qtOption && qtOption.hasAttribute("data-name")) {
+                qtNameSpan.textContent = qtOption.getAttribute("data-name");
+            } else {
+                qtNameSpan.textContent = "Type";
+            }
+        }
+
+
+        mainVariantSelect.addEventListener("change", function () {
+            filterQuantityTypes(this.value);
+        });
+
+        quantityTypeSelect.addEventListener("change", () => {
+            updatePrice();
+            updateQuantityLabel();
+        });
+        variantSelect.addEventListener("change", updatePrice);
+        quantityInput.addEventListener("input", updatePrice);
+        updateQuantityLabel();
+
+        // Initial filter if preselected
+        if (mainVariantSelect.value) {
+            filterQuantityTypes(mainVariantSelect.value);
+        }
+    });
+</script>
+
+
+
+</body>
+</html>

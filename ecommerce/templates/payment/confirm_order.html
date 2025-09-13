@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  {% load static %}
+
+  <meta charset="UTF-8">
+  <title>Confirmation de Commande</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body class="bg-gray-50 min-h-screen flex items-center justify-center p-4">
+
+<div class="bg-white rounded-xl shadow-lg p-8 max-w-xl w-full space-y-6">
+  <h1 class="text-2xl font-bold text-green-700">Confirmer votre commande</h1>
+
+  <div class="text-gray-700 space-y-1">
+    <p><strong>Produit :</strong> {{ order.product.name }}</p>
+    <p><strong>Variante :</strong> {{ order.p_variant }}</p>
+    <p><strong>Quantité :</strong> {{ order.quantity }}</p>
+    <p><strong>Contenance :</strong> {{ order.contenance }} ml</p>
+    <p><strong>Sous-total :</strong> <span id="base-price">{{ order.total_price }}</span> DA</p>
+  </div>
+
+  <form method="post" class="space-y-4">
+    {% csrf_token %}
+
+    <!-- 🚚 Shipping Selection -->
+    <div class="bg-gray-100 p-4 rounded-lg">
+      <label class="block mb-2 font-semibold text-gray-700">Sélectionnez votre wilaya :</label>
+      <select name="wilaya" id="wilaya-select" required
+              class="w-full border rounded-md px-3 py-2 focus:outline-none focus:ring focus:border-blue-300">
+        <option value="" disabled selected>-- Choisir une wilaya --</option>
+        {% for code, name in WILAYA_CHOICES %}
+        <option value="{{ code }}">{{ name }}</option>
+        {% endfor %}
+      </select>
+
+      <div id="commune-select-wrapper" class="mt-4 hidden">
+        <label for="commune" class="block mb-2 font-semibold text-gray-700">Choisissez votre commune :</label>
+        <select name="commune" id="commune-select"
+                class="w-full border rounded-md px-3 py-2 focus:outline-none focus:ring focus:border-blue-300">
+          <option value="" selected disabled>-- Sélectionner une commune --</option>
+        </select>
+      </div>
+
+
+      <div class="mt-4 mb-4">
+        <label class="font-semibold text-gray-700">Type de transport :</label><br>
+        {% for key, label in TRANSPORT_CHOICES %}
+        <label class="inline-flex items-center mr-4">
+          <input type="radio" name="transport_type" value="{{ key }}" class="transport-type" required>
+          <span class="ml-1">{{ label }}</span>
+        </label>
+        {% endfor %}
+      </div>
+    </div>
+
+    <!-- 🚛 Updated Total -->
+    <p class="text-green-700 font-semibold">
+      <strong>Total (avec livraison) :</strong> <span id="final-price">{{ order.total_price }}</span> DA
+    </p>
+
+    <!-- 🔁 Price Update Script -->
+    <script>
+      const basePrice = parseFloat(document.getElementById("base-price").textContent);
+      const shippingData = {{ shipping_prices_json|safe }};  // dict from view
+      const finalPriceEl = document.getElementById("final-price");
+
+      const updatePrice = () => {
+        const wilaya = document.getElementById("wilaya-select").value;
+        const transport = document.querySelector('input[name="transport_type"]:checked');
+        const commune = communeSelect.value;
+
+        if (wilaya && transport) {
+          const transportType = transport.value;
+          let key;
+          if (!communeSelectWrapper.classList.contains("hidden") && commune) {
+            key = `${wilaya}-${commune}-${transport.value}`;
+          } else {
+            key = `${wilaya}-${transport.value}`;
+          }
+
+          const shipping = shippingData[key] || 0;
+          finalPriceEl.textContent = (basePrice + shipping).toFixed(2);
+        } else {
+          finalPriceEl.textContent = basePrice.toFixed(2);
+        }
+      };
+
+      document.getElementById("wilaya-select").addEventListener("change", updatePrice);
+      document.querySelectorAll('input[name="transport_type"]').forEach(el => {
+        el.addEventListener("change", updatePrice);
+      });
+
+      const communeSelectWrapper = document.getElementById("commune-select-wrapper");
+      const communeSelect = document.getElementById("commune-select");
+
+      document.getElementById("wilaya-select").addEventListener("change", function () {
+        const wilaya = this.value;
+
+        fetch(`/ajax/get-communes/?wilaya_code=${wilaya}`)
+                .then(response => response.json())
+                .then(data => {
+                  const communes = data.communes;
+
+                  if (communes.length > 0) {
+                    communeSelectWrapper.classList.remove("hidden");
+                    communeSelect.innerHTML = '<option value="" selected disabled>-- Sélectionner une commune --</option>';
+
+                    communes.forEach(name => {
+                      const option = document.createElement("option");
+                      option.value = name;
+                      option.textContent = name;
+                      communeSelect.appendChild(option);
+                    });
+                  } else {
+                    communeSelectWrapper.classList.add("hidden");
+                    communeSelect.innerHTML = "";
+                  }
+
+                  updatePrice();  // recalculate price if needed
+                });
+      });
+
+
+    </script>
+
+    <!-- 💳 Payment Method -->
+    <p class="text-gray-600 font-semibold">Choisissez une méthode de paiement :</p>
+
+    <label class="flex items-center space-x-3 cursor-pointer">
+      <input type="radio" name="payment_method" value="card" required class="accent-blue-600">
+      <img src="{% static 'ecommerce/images/logo-interoperabilite-final.png' %}" alt="CIB Logo" class="w-9 h-6">
+      <span class="text-gray-800 text-sm">  Paiement par carte (CIB/Edhahabia)</span>
+    </label>
+
+    <label class="block">
+      <input type="radio" name="payment_method" value="cod">
+      💵 Paiement à la livraison
+    </label>
+
+    <!-- ✅ Terms & Conditions -->
+    <div class="bg-gray-100 p-4 rounded-lg mt-6">
+      <p class="text-sm text-gray-700">
+        En procédant au paiement, vous acceptez nos
+        <a href="{% url 'terms_and_conditions' %}" class="text-blue-600 underline hover:text-blue-800" target="_blank">
+          Conditions Générales de Paiement et de Vente
+        </a>.
+      </p>
+      <label class="flex items-center mt-3 space-x-2">
+        <input type="checkbox" name="accept_terms" required class="accent-blue-600">
+        <span class="text-sm text-gray-800">J’ai lu et j’accepte les conditions générales.</span>
+      </label>
+    </div>
+
+    <!-- 🔒 CAPTCHA -->
+    <div class="pt-4">
+      <div class="g-recaptcha" data-sitekey="6LeYMnYrAAAAAN2qsERlsBtlpx-V7ht6tAl84ovb"></div>
+    </div>
+
+    <button type="submit" class="bg-green-600 text-white px-6 py-2 rounded hover:bg-green-700">
+      Confirmer la commande
+    </button>
+  </form>
+
+
+  <a href="/" class="text-blue-500 hover:underline text-sm">← Retour</a>
+</div>
+
+</body>
+</html>
+

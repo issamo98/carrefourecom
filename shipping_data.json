@@ -1,0 +1,4358 @@
+[
+{
+  "model": "ecommerce.commune",
+  "pk": 1,
+  "fields": {
+    "wilaya_code": "16",
+    "name": "Alger-Centre"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 2,
+  "fields": {
+    "wilaya_code": "16",
+    "name": "Sidi M'hamed"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 3,
+  "fields": {
+    "wilaya_code": "16",
+    "name": "El Madania"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 4,
+  "fields": {
+    "wilaya_code": "16",
+    "name": "El Mouradia"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 5,
+  "fields": {
+    "wilaya_code": "16",
+    "name": "Mohamed Belouizdad"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 6,
+  "fields": {
+    "wilaya_code": "16",
+    "name": "Bab El Oued"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 7,
+  "fields": {
+    "wilaya_code": "16",
+    "name": "Bologhine (Ibnou Ziri)"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 8,
+  "fields": {
+    "wilaya_code": "16",
+    "name": "Casbah"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 9,
+  "fields": {
+    "wilaya_code": "16",
+    "name": "Oued Koriche"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 10,
+  "fields": {
+    "wilaya_code": "16",
+    "name": "Raïs Hamidou"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 11,
+  "fields": {
+    "wilaya_code": "16",
+    "name": "Bouzaréah"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 12,
+  "fields": {
+    "wilaya_code": "16",
+    "name": "El Biar"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 13,
+  "fields": {
+    "wilaya_code": "16",
+    "name": "Ben Aknoun"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 14,
+  "fields": {
+    "wilaya_code": "16",
+    "name": "Beni Messous"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 15,
+  "fields": {
+    "wilaya_code": "16",
+    "name": "Dely IBrahim"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 16,
+  "fields": {
+    "wilaya_code": "16",
+    "name": "Bir Mourad Raïs"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 17,
+  "fields": {
+    "wilaya_code": "16",
+    "name": "Birkhadem"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 18,
+  "fields": {
+    "wilaya_code": "16",
+    "name": "Djasr Kasentina"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 19,
+  "fields": {
+    "wilaya_code": "16",
+    "name": "Hydra"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 20,
+  "fields": {
+    "wilaya_code": "16",
+    "name": "Sehaoula"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 21,
+  "fields": {
+    "wilaya_code": "16",
+    "name": "El Harrach"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 22,
+  "fields": {
+    "wilaya_code": "16",
+    "name": "Bachedjerah"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 23,
+  "fields": {
+    "wilaya_code": "16",
+    "name": "Bourouba"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 24,
+  "fields": {
+    "wilaya_code": "16",
+    "name": "Oued Smar"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 25,
+  "fields": {
+    "wilaya_code": "16",
+    "name": "Hussein Dey"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 26,
+  "fields": {
+    "wilaya_code": "16",
+    "name": "Kouba"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 27,
+  "fields": {
+    "wilaya_code": "16",
+    "name": "El Magharia"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 28,
+  "fields": {
+    "wilaya_code": "16",
+    "name": "Baraki"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 29,
+  "fields": {
+    "wilaya_code": "16",
+    "name": "Les Eucalyptus"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 30,
+  "fields": {
+    "wilaya_code": "16",
+    "name": "Sidi Moussa"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 31,
+  "fields": {
+    "wilaya_code": "16",
+    "name": "Dar El Beïda"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 32,
+  "fields": {
+    "wilaya_code": "16",
+    "name": "Bab Ezzouar"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 33,
+  "fields": {
+    "wilaya_code": "16",
+    "name": "Bordj El Kiffan"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 34,
+  "fields": {
+    "wilaya_code": "16",
+    "name": "Bordj El bahri"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 35,
+  "fields": {
+    "wilaya_code": "16",
+    "name": "El marsa"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 36,
+  "fields": {
+    "wilaya_code": "16",
+    "name": "Mohammadia"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 37,
+  "fields": {
+    "wilaya_code": "16",
+    "name": "Aïn Taya"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 38,
+  "fields": {
+    "wilaya_code": "16",
+    "name": "Rouiba"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 39,
+  "fields": {
+    "wilaya_code": "16",
+    "name": "Reghaïa"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 40,
+  "fields": {
+    "wilaya_code": "16",
+    "name": "Herraoua"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 41,
+  "fields": {
+    "wilaya_code": "16",
+    "name": "Draria"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 42,
+  "fields": {
+    "wilaya_code": "16",
+    "name": "Douera"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 43,
+  "fields": {
+    "wilaya_code": "16",
+    "name": "Khraicia"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 44,
+  "fields": {
+    "wilaya_code": "16",
+    "name": "Baba Hassen"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 45,
+  "fields": {
+    "wilaya_code": "16",
+    "name": "El Achour"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 46,
+  "fields": {
+    "wilaya_code": "16",
+    "name": "Chéraga"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 47,
+  "fields": {
+    "wilaya_code": "16",
+    "name": "Ouled Fayet"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 48,
+  "fields": {
+    "wilaya_code": "16",
+    "name": "Ain Benian"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 49,
+  "fields": {
+    "wilaya_code": "16",
+    "name": "Hammamet"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 50,
+  "fields": {
+    "wilaya_code": "16",
+    "name": "Zeralda"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 51,
+  "fields": {
+    "wilaya_code": "16",
+    "name": "Staoueli"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 52,
+  "fields": {
+    "wilaya_code": "16",
+    "name": "Souidania"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 53,
+  "fields": {
+    "wilaya_code": "16",
+    "name": "Mahelma"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 54,
+  "fields": {
+    "wilaya_code": "16",
+    "name": "Rahmania"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 55,
+  "fields": {
+    "wilaya_code": "16",
+    "name": "Birtouta"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 56,
+  "fields": {
+    "wilaya_code": "16",
+    "name": "Ouled chebel"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 57,
+  "fields": {
+    "wilaya_code": "16",
+    "name": "Tessala El Merdja"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 58,
+  "fields": {
+    "wilaya_code": "09",
+    "name": "Blida"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 59,
+  "fields": {
+    "wilaya_code": "09",
+    "name": "Bouarfa"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 60,
+  "fields": {
+    "wilaya_code": "09",
+    "name": "Boufarik"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 61,
+  "fields": {
+    "wilaya_code": "09",
+    "name": "Guerrouaou"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 62,
+  "fields": {
+    "wilaya_code": "09",
+    "name": "Soumâa"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 63,
+  "fields": {
+    "wilaya_code": "09",
+    "name": "Bougara"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 64,
+  "fields": {
+    "wilaya_code": "09",
+    "name": "Hammam Melouane"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 65,
+  "fields": {
+    "wilaya_code": "09",
+    "name": "Ouled Slama"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 66,
+  "fields": {
+    "wilaya_code": "09",
+    "name": "Bouinan"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 67,
+  "fields": {
+    "wilaya_code": "09",
+    "name": "Chebli"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 68,
+  "fields": {
+    "wilaya_code": "09",
+    "name": "El Affroun"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 69,
+  "fields": {
+    "wilaya_code": "09",
+    "name": "Oued Djer"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 70,
+  "fields": {
+    "wilaya_code": "09",
+    "name": "Larabaa"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 71,
+  "fields": {
+    "wilaya_code": "09",
+    "name": "Souhane"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 72,
+  "fields": {
+    "wilaya_code": "09",
+    "name": "Djebabra"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 73,
+  "fields": {
+    "wilaya_code": "09",
+    "name": "Meftah"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 74,
+  "fields": {
+    "wilaya_code": "09",
+    "name": "Mouzaïa"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 75,
+  "fields": {
+    "wilaya_code": "09",
+    "name": "Aïn Romana"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 76,
+  "fields": {
+    "wilaya_code": "09",
+    "name": "Chiffa"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 77,
+  "fields": {
+    "wilaya_code": "09",
+    "name": "Oued El Alleug"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 78,
+  "fields": {
+    "wilaya_code": "09",
+    "name": "Beni Tamou"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 79,
+  "fields": {
+    "wilaya_code": "09",
+    "name": "Ben khlil"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 80,
+  "fields": {
+    "wilaya_code": "09",
+    "name": "Ouled Yaïch"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 81,
+  "fields": {
+    "wilaya_code": "09",
+    "name": "Beni Mered"
+  }
+},
+{
+  "model": "ecommerce.commune",
+  "pk": 82,
+  "fields": {
+    "wilaya_code": "09",
+    "name": "Chréa"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 1,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": null,
+    "transport_type": "léger",
+    "price": "8000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 2,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 1,
+    "transport_type": "léger",
+    "price": "4000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 3,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 1,
+    "transport_type": "lourd",
+    "price": "9000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 4,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 1,
+    "transport_type": "semi",
+    "price": "12000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 5,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 2,
+    "transport_type": "léger",
+    "price": "4000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 6,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 2,
+    "transport_type": "lourd",
+    "price": "9000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 7,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 2,
+    "transport_type": "semi",
+    "price": "12000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 8,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 3,
+    "transport_type": "léger",
+    "price": "3000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 9,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 2,
+    "transport_type": "lourd",
+    "price": "5000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 10,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 3,
+    "transport_type": "semi",
+    "price": "10000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 11,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 4,
+    "transport_type": "léger",
+    "price": "3000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 12,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 4,
+    "transport_type": "lourd",
+    "price": "5000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 13,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 4,
+    "transport_type": "semi",
+    "price": "10000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 14,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 5,
+    "transport_type": "léger",
+    "price": "4000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 15,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 5,
+    "transport_type": "lourd",
+    "price": "9000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 16,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 5,
+    "transport_type": "semi",
+    "price": "12000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 17,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 6,
+    "transport_type": "léger",
+    "price": "4000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 18,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 6,
+    "transport_type": "lourd",
+    "price": "9000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 19,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 6,
+    "transport_type": "semi",
+    "price": "12000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 20,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 7,
+    "transport_type": "léger",
+    "price": "4000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 21,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 7,
+    "transport_type": "lourd",
+    "price": "9000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 22,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 7,
+    "transport_type": "semi",
+    "price": "12000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 23,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 8,
+    "transport_type": "léger",
+    "price": "4000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 24,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 8,
+    "transport_type": "lourd",
+    "price": "9000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 25,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 8,
+    "transport_type": "semi",
+    "price": "12000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 26,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 9,
+    "transport_type": "léger",
+    "price": "4000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 27,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 9,
+    "transport_type": "lourd",
+    "price": "9000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 28,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 9,
+    "transport_type": "semi",
+    "price": "12000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 29,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 10,
+    "transport_type": "léger",
+    "price": "4000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 30,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 10,
+    "transport_type": "lourd",
+    "price": "9000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 31,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 10,
+    "transport_type": "semi",
+    "price": "12000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 32,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 11,
+    "transport_type": "léger",
+    "price": "4000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 33,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 11,
+    "transport_type": "lourd",
+    "price": "9000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 34,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 11,
+    "transport_type": "semi",
+    "price": "12000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 35,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 12,
+    "transport_type": "léger",
+    "price": "4000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 36,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 12,
+    "transport_type": "lourd",
+    "price": "9000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 37,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 12,
+    "transport_type": "semi",
+    "price": "12000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 38,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 13,
+    "transport_type": "léger",
+    "price": "4000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 39,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 13,
+    "transport_type": "lourd",
+    "price": "9000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 40,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 13,
+    "transport_type": "semi",
+    "price": "12000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 41,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 14,
+    "transport_type": "léger",
+    "price": "3000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 42,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 14,
+    "transport_type": "lourd",
+    "price": "5000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 43,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 14,
+    "transport_type": "semi",
+    "price": "10000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 44,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 15,
+    "transport_type": "léger",
+    "price": "3000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 45,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 15,
+    "transport_type": "lourd",
+    "price": "5000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 46,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 15,
+    "transport_type": "semi",
+    "price": "10000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 47,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 16,
+    "transport_type": "léger",
+    "price": "3000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 48,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 16,
+    "transport_type": "lourd",
+    "price": "5000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 49,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 16,
+    "transport_type": "semi",
+    "price": "10000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 50,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 17,
+    "transport_type": "léger",
+    "price": "3000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 51,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 17,
+    "transport_type": "lourd",
+    "price": "5000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 52,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 17,
+    "transport_type": "semi",
+    "price": "10000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 53,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 18,
+    "transport_type": "léger",
+    "price": "3000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 54,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 18,
+    "transport_type": "lourd",
+    "price": "5000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 55,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 18,
+    "transport_type": "semi",
+    "price": "10000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 56,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 19,
+    "transport_type": "léger",
+    "price": "4000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 57,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 19,
+    "transport_type": "lourd",
+    "price": "9000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 58,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 19,
+    "transport_type": "semi",
+    "price": "12000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 59,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 20,
+    "transport_type": "léger",
+    "price": "3000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 60,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 20,
+    "transport_type": "lourd",
+    "price": "5000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 61,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 20,
+    "transport_type": "semi",
+    "price": "10000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 62,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 21,
+    "transport_type": "léger",
+    "price": "4000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 63,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 21,
+    "transport_type": "lourd",
+    "price": "9000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 64,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 21,
+    "transport_type": "semi",
+    "price": "12000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 65,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 22,
+    "transport_type": "léger",
+    "price": "4000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 66,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 22,
+    "transport_type": "lourd",
+    "price": "9000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 67,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 22,
+    "transport_type": "semi",
+    "price": "12000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 68,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 23,
+    "transport_type": "léger",
+    "price": "3000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 69,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 23,
+    "transport_type": "lourd",
+    "price": "5000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 70,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 23,
+    "transport_type": "semi",
+    "price": "10000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 71,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 24,
+    "transport_type": "léger",
+    "price": "4000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 72,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 24,
+    "transport_type": "lourd",
+    "price": "9000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 73,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 24,
+    "transport_type": "semi",
+    "price": "12000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 74,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 25,
+    "transport_type": "léger",
+    "price": "4000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 75,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 25,
+    "transport_type": "lourd",
+    "price": "9000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 76,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 25,
+    "transport_type": "semi",
+    "price": "12000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 77,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 26,
+    "transport_type": "léger",
+    "price": "3000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 78,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 26,
+    "transport_type": "lourd",
+    "price": "5000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 79,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 26,
+    "transport_type": "semi",
+    "price": "10000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 80,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 27,
+    "transport_type": "léger",
+    "price": "3000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 81,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 27,
+    "transport_type": "lourd",
+    "price": "5000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 82,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 27,
+    "transport_type": "semi",
+    "price": "10000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 83,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 28,
+    "transport_type": "léger",
+    "price": "3000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 84,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 28,
+    "transport_type": "lourd",
+    "price": "5000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 85,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 28,
+    "transport_type": "semi",
+    "price": "10000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 86,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 29,
+    "transport_type": "léger",
+    "price": "3000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 87,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 29,
+    "transport_type": "lourd",
+    "price": "5000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 88,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 29,
+    "transport_type": "semi",
+    "price": "10000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 89,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 30,
+    "transport_type": "léger",
+    "price": "3000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 90,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 30,
+    "transport_type": "lourd",
+    "price": "5000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 91,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 30,
+    "transport_type": "semi",
+    "price": "10000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 92,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 31,
+    "transport_type": "léger",
+    "price": "4000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 93,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 31,
+    "transport_type": "lourd",
+    "price": "9000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 94,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 31,
+    "transport_type": "semi",
+    "price": "12000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 95,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 32,
+    "transport_type": "léger",
+    "price": "4000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 96,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 32,
+    "transport_type": "lourd",
+    "price": "9000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 97,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 32,
+    "transport_type": "semi",
+    "price": "12000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 98,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 33,
+    "transport_type": "léger",
+    "price": "4000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 99,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 33,
+    "transport_type": "lourd",
+    "price": "9000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 100,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 33,
+    "transport_type": "semi",
+    "price": "12000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 101,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 34,
+    "transport_type": "léger",
+    "price": "4000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 102,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 34,
+    "transport_type": "lourd",
+    "price": "9000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 103,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 34,
+    "transport_type": "semi",
+    "price": "12000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 104,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 35,
+    "transport_type": "léger",
+    "price": "4000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 105,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 35,
+    "transport_type": "lourd",
+    "price": "9000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 106,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 35,
+    "transport_type": "semi",
+    "price": "12000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 107,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 36,
+    "transport_type": "léger",
+    "price": "4000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 108,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 36,
+    "transport_type": "lourd",
+    "price": "9000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 109,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 36,
+    "transport_type": "semi",
+    "price": "12000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 110,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 37,
+    "transport_type": "léger",
+    "price": "4000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 111,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 37,
+    "transport_type": "lourd",
+    "price": "9000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 112,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 37,
+    "transport_type": "semi",
+    "price": "12000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 113,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 38,
+    "transport_type": "léger",
+    "price": "4000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 114,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 38,
+    "transport_type": "lourd",
+    "price": "9000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 115,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 38,
+    "transport_type": "semi",
+    "price": "12000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 116,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 39,
+    "transport_type": "léger",
+    "price": "4000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 117,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 39,
+    "transport_type": "lourd",
+    "price": "9000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 118,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 39,
+    "transport_type": "semi",
+    "price": "12000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 119,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 40,
+    "transport_type": "léger",
+    "price": "4000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 120,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 40,
+    "transport_type": "lourd",
+    "price": "9000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 121,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 40,
+    "transport_type": "semi",
+    "price": "12000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 122,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 41,
+    "transport_type": "léger",
+    "price": "3000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 123,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 41,
+    "transport_type": "lourd",
+    "price": "5000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 124,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 41,
+    "transport_type": "semi",
+    "price": "10000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 125,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 42,
+    "transport_type": "léger",
+    "price": "3000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 126,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 42,
+    "transport_type": "lourd",
+    "price": "5000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 127,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 42,
+    "transport_type": "semi",
+    "price": "10000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 128,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 43,
+    "transport_type": "léger",
+    "price": "3000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 129,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 43,
+    "transport_type": "lourd",
+    "price": "5000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 130,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 43,
+    "transport_type": "semi",
+    "price": "10000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 131,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 44,
+    "transport_type": "léger",
+    "price": "3000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 132,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 44,
+    "transport_type": "lourd",
+    "price": "5000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 133,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 44,
+    "transport_type": "semi",
+    "price": "10000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 134,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 45,
+    "transport_type": "léger",
+    "price": "3000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 135,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 45,
+    "transport_type": "lourd",
+    "price": "5000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 136,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 45,
+    "transport_type": "semi",
+    "price": "10000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 137,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 46,
+    "transport_type": "léger",
+    "price": "3000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 138,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 46,
+    "transport_type": "lourd",
+    "price": "5000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 139,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 46,
+    "transport_type": "semi",
+    "price": "10000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 140,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 47,
+    "transport_type": "léger",
+    "price": "3000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 141,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 47,
+    "transport_type": "lourd",
+    "price": "5000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 142,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 47,
+    "transport_type": "semi",
+    "price": "10000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 143,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 48,
+    "transport_type": "léger",
+    "price": "4000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 144,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 48,
+    "transport_type": "lourd",
+    "price": "9000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 145,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 48,
+    "transport_type": "semi",
+    "price": "12000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 146,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 49,
+    "transport_type": "léger",
+    "price": "4000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 147,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 49,
+    "transport_type": "lourd",
+    "price": "9000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 148,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 49,
+    "transport_type": "semi",
+    "price": "12000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 149,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 50,
+    "transport_type": "léger",
+    "price": "3000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 150,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 50,
+    "transport_type": "lourd",
+    "price": "5000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 151,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 50,
+    "transport_type": "semi",
+    "price": "10000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 152,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 51,
+    "transport_type": "léger",
+    "price": "4000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 153,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 51,
+    "transport_type": "lourd",
+    "price": "9000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 154,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 51,
+    "transport_type": "semi",
+    "price": "12000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 155,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 52,
+    "transport_type": "léger",
+    "price": "3000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 156,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 52,
+    "transport_type": "lourd",
+    "price": "5000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 157,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 52,
+    "transport_type": "semi",
+    "price": "10000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 158,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 53,
+    "transport_type": "léger",
+    "price": "3000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 159,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 53,
+    "transport_type": "lourd",
+    "price": "5000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 160,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 53,
+    "transport_type": "semi",
+    "price": "10000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 161,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 54,
+    "transport_type": "léger",
+    "price": "3000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 162,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 54,
+    "transport_type": "lourd",
+    "price": "5000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 163,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 54,
+    "transport_type": "semi",
+    "price": "10000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 164,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 55,
+    "transport_type": "léger",
+    "price": "2500.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 165,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 55,
+    "transport_type": "lourd",
+    "price": "5000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 166,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 55,
+    "transport_type": "semi",
+    "price": "8000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 167,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 56,
+    "transport_type": "léger",
+    "price": "3000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 168,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 56,
+    "transport_type": "lourd",
+    "price": "5000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 169,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 56,
+    "transport_type": "semi",
+    "price": "10000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 170,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 57,
+    "transport_type": "léger",
+    "price": "2500.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 171,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 57,
+    "transport_type": "lourd",
+    "price": "5000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 172,
+  "fields": {
+    "wilaya_code": "16",
+    "commune": 57,
+    "transport_type": "semi",
+    "price": "8000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 173,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 58,
+    "transport_type": "léger",
+    "price": "2500.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 174,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 58,
+    "transport_type": "lourd",
+    "price": "5000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 175,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 58,
+    "transport_type": "semi",
+    "price": "8000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 176,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 59,
+    "transport_type": "léger",
+    "price": "3000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 177,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 59,
+    "transport_type": "lourd",
+    "price": "5000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 178,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 59,
+    "transport_type": "semi",
+    "price": "10000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 179,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 60,
+    "transport_type": "léger",
+    "price": "2500.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 180,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 60,
+    "transport_type": "lourd",
+    "price": "5000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 181,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 60,
+    "transport_type": "semi",
+    "price": "8000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 182,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 61,
+    "transport_type": "léger",
+    "price": "2500.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 183,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 61,
+    "transport_type": "lourd",
+    "price": "5000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 184,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 61,
+    "transport_type": "semi",
+    "price": "8000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 185,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 62,
+    "transport_type": "léger",
+    "price": "2500.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 186,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 62,
+    "transport_type": "lourd",
+    "price": "5000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 187,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 62,
+    "transport_type": "semi",
+    "price": "8000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 188,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 63,
+    "transport_type": "léger",
+    "price": "4000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 189,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 63,
+    "transport_type": "lourd",
+    "price": "9000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 190,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 63,
+    "transport_type": "semi",
+    "price": "12000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 191,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 64,
+    "transport_type": "léger",
+    "price": "4000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 192,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 64,
+    "transport_type": "lourd",
+    "price": "9000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 193,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 64,
+    "transport_type": "semi",
+    "price": "12000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 194,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 65,
+    "transport_type": "léger",
+    "price": "4000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 195,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 65,
+    "transport_type": "lourd",
+    "price": "9000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 196,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 65,
+    "transport_type": "semi",
+    "price": "12000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 197,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 66,
+    "transport_type": "léger",
+    "price": "2500.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 198,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 66,
+    "transport_type": "lourd",
+    "price": "5000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 199,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 66,
+    "transport_type": "semi",
+    "price": "8000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 200,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 67,
+    "transport_type": "léger",
+    "price": "2500.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 201,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 67,
+    "transport_type": "lourd",
+    "price": "5000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 202,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 67,
+    "transport_type": "semi",
+    "price": "8000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 203,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 68,
+    "transport_type": "léger",
+    "price": "4000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 204,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 68,
+    "transport_type": "lourd",
+    "price": "9000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 205,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 68,
+    "transport_type": "semi",
+    "price": "12000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 206,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 69,
+    "transport_type": "léger",
+    "price": "4000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 207,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 69,
+    "transport_type": "lourd",
+    "price": "9000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 208,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 69,
+    "transport_type": "semi",
+    "price": "12000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 209,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 70,
+    "transport_type": "léger",
+    "price": "4000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 210,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 70,
+    "transport_type": "lourd",
+    "price": "9000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 211,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 70,
+    "transport_type": "semi",
+    "price": "12000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 212,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 71,
+    "transport_type": "léger",
+    "price": "4000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 213,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 71,
+    "transport_type": "lourd",
+    "price": "9000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 214,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 71,
+    "transport_type": "semi",
+    "price": "12000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 215,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 72,
+    "transport_type": "léger",
+    "price": "4000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 216,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 72,
+    "transport_type": "léger",
+    "price": "9000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 217,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 72,
+    "transport_type": "semi",
+    "price": "12000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 218,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 73,
+    "transport_type": "léger",
+    "price": "4000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 219,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 73,
+    "transport_type": "lourd",
+    "price": "9000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 220,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 73,
+    "transport_type": "semi",
+    "price": "12000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 221,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 74,
+    "transport_type": "léger",
+    "price": "2500.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 222,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 74,
+    "transport_type": "lourd",
+    "price": "5000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 223,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 74,
+    "transport_type": "semi",
+    "price": "8000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 224,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 75,
+    "transport_type": "léger",
+    "price": "3000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 225,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 75,
+    "transport_type": "lourd",
+    "price": "5000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 226,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 75,
+    "transport_type": "semi",
+    "price": "10000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 227,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 76,
+    "transport_type": "léger",
+    "price": "3000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 228,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 76,
+    "transport_type": "lourd",
+    "price": "5000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 229,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 76,
+    "transport_type": "semi",
+    "price": "10000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 230,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 77,
+    "transport_type": "léger",
+    "price": "2500.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 231,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 77,
+    "transport_type": "lourd",
+    "price": "5000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 232,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 77,
+    "transport_type": "semi",
+    "price": "8000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 233,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 78,
+    "transport_type": "léger",
+    "price": "2500.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 234,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 78,
+    "transport_type": "lourd",
+    "price": "5000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 235,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 78,
+    "transport_type": "semi",
+    "price": "8000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 236,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 79,
+    "transport_type": "léger",
+    "price": "2500.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 237,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 79,
+    "transport_type": "lourd",
+    "price": "5000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 238,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 79,
+    "transport_type": "semi",
+    "price": "8000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 239,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 80,
+    "transport_type": "léger",
+    "price": "2500.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 240,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 80,
+    "transport_type": "lourd",
+    "price": "5000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 241,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 80,
+    "transport_type": "semi",
+    "price": "8000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 242,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 81,
+    "transport_type": "léger",
+    "price": "2500.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 243,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 81,
+    "transport_type": "lourd",
+    "price": "5000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 244,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 81,
+    "transport_type": "semi",
+    "price": "8000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 245,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 82,
+    "transport_type": "léger",
+    "price": "3000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 246,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 82,
+    "transport_type": "lourd",
+    "price": "5000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 247,
+  "fields": {
+    "wilaya_code": "09",
+    "commune": 82,
+    "transport_type": "semi",
+    "price": "10000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 248,
+  "fields": {
+    "wilaya_code": "02",
+    "commune": null,
+    "transport_type": "léger",
+    "price": "7500.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 249,
+  "fields": {
+    "wilaya_code": "02",
+    "commune": null,
+    "transport_type": "lourd",
+    "price": "12000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 250,
+  "fields": {
+    "wilaya_code": "02",
+    "commune": null,
+    "transport_type": "semi",
+    "price": "18000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 251,
+  "fields": {
+    "wilaya_code": "03",
+    "commune": null,
+    "transport_type": "léger",
+    "price": "18000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 252,
+  "fields": {
+    "wilaya_code": "03",
+    "commune": null,
+    "transport_type": "lourd",
+    "price": "35000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 253,
+  "fields": {
+    "wilaya_code": "03",
+    "commune": null,
+    "transport_type": "semi",
+    "price": "45000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 254,
+  "fields": {
+    "wilaya_code": "04",
+    "commune": null,
+    "transport_type": "léger",
+    "price": "22000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 255,
+  "fields": {
+    "wilaya_code": "04",
+    "commune": null,
+    "transport_type": "lourd",
+    "price": "38000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 256,
+  "fields": {
+    "wilaya_code": "04",
+    "commune": null,
+    "transport_type": "semi",
+    "price": "45000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 257,
+  "fields": {
+    "wilaya_code": "05",
+    "commune": null,
+    "transport_type": "léger",
+    "price": "18000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 258,
+  "fields": {
+    "wilaya_code": "05",
+    "commune": null,
+    "transport_type": "lourd",
+    "price": "35000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 259,
+  "fields": {
+    "wilaya_code": "05",
+    "commune": null,
+    "transport_type": "semi",
+    "price": "45000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 260,
+  "fields": {
+    "wilaya_code": "06",
+    "commune": null,
+    "transport_type": "léger",
+    "price": "16000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 261,
+  "fields": {
+    "wilaya_code": "06",
+    "commune": null,
+    "transport_type": "lourd",
+    "price": "25000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 262,
+  "fields": {
+    "wilaya_code": "06",
+    "commune": null,
+    "transport_type": "semi",
+    "price": "35000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 263,
+  "fields": {
+    "wilaya_code": "07",
+    "commune": null,
+    "transport_type": "léger",
+    "price": "22000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 264,
+  "fields": {
+    "wilaya_code": "07",
+    "commune": null,
+    "transport_type": "lourd",
+    "price": "38000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 265,
+  "fields": {
+    "wilaya_code": "07",
+    "commune": null,
+    "transport_type": "semi",
+    "price": "45000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 266,
+  "fields": {
+    "wilaya_code": "10",
+    "commune": null,
+    "transport_type": "léger",
+    "price": "7500.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 267,
+  "fields": {
+    "wilaya_code": "10",
+    "commune": null,
+    "transport_type": "lourd",
+    "price": "12000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 268,
+  "fields": {
+    "wilaya_code": "10",
+    "commune": null,
+    "transport_type": "semi",
+    "price": "18000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 269,
+  "fields": {
+    "wilaya_code": "12",
+    "commune": null,
+    "transport_type": "léger",
+    "price": "30000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 270,
+  "fields": {
+    "wilaya_code": "12",
+    "commune": null,
+    "transport_type": "lourd",
+    "price": "45000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 271,
+  "fields": {
+    "wilaya_code": "12",
+    "commune": null,
+    "transport_type": "semi",
+    "price": "60000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 272,
+  "fields": {
+    "wilaya_code": "13",
+    "commune": null,
+    "transport_type": "léger",
+    "price": "18000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 273,
+  "fields": {
+    "wilaya_code": "13",
+    "commune": null,
+    "transport_type": "lourd",
+    "price": "35000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 274,
+  "fields": {
+    "wilaya_code": "13",
+    "commune": null,
+    "transport_type": "semi",
+    "price": "45000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 275,
+  "fields": {
+    "wilaya_code": "14",
+    "commune": null,
+    "transport_type": "léger",
+    "price": "18000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 276,
+  "fields": {
+    "wilaya_code": "14",
+    "commune": null,
+    "transport_type": "lourd",
+    "price": "35000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 277,
+  "fields": {
+    "wilaya_code": "14",
+    "commune": null,
+    "transport_type": "semi",
+    "price": "45000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 278,
+  "fields": {
+    "wilaya_code": "15",
+    "commune": null,
+    "transport_type": "léger",
+    "price": "7500.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 279,
+  "fields": {
+    "wilaya_code": "15",
+    "commune": null,
+    "transport_type": "lourd",
+    "price": "12000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 280,
+  "fields": {
+    "wilaya_code": "15",
+    "commune": null,
+    "transport_type": "semi",
+    "price": "18000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 281,
+  "fields": {
+    "wilaya_code": "17",
+    "commune": null,
+    "transport_type": "léger",
+    "price": "16000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 282,
+  "fields": {
+    "wilaya_code": "17",
+    "commune": null,
+    "transport_type": "lourd",
+    "price": "25000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 283,
+  "fields": {
+    "wilaya_code": "17",
+    "commune": null,
+    "transport_type": "semi",
+    "price": "35000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 284,
+  "fields": {
+    "wilaya_code": "18",
+    "commune": null,
+    "transport_type": "léger",
+    "price": "18000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 285,
+  "fields": {
+    "wilaya_code": "18",
+    "commune": null,
+    "transport_type": "lourd",
+    "price": "35000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 286,
+  "fields": {
+    "wilaya_code": "18",
+    "commune": null,
+    "transport_type": "semi",
+    "price": "45000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 287,
+  "fields": {
+    "wilaya_code": "19",
+    "commune": null,
+    "transport_type": "léger",
+    "price": "16000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 288,
+  "fields": {
+    "wilaya_code": "19",
+    "commune": null,
+    "transport_type": "lourd",
+    "price": "25000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 289,
+  "fields": {
+    "wilaya_code": "19",
+    "commune": null,
+    "transport_type": "semi",
+    "price": "35000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 290,
+  "fields": {
+    "wilaya_code": "20",
+    "commune": null,
+    "transport_type": "léger",
+    "price": "30000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 291,
+  "fields": {
+    "wilaya_code": "20",
+    "commune": null,
+    "transport_type": "lourd",
+    "price": "45000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 292,
+  "fields": {
+    "wilaya_code": "20",
+    "commune": null,
+    "transport_type": "semi",
+    "price": "60000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 293,
+  "fields": {
+    "wilaya_code": "21",
+    "commune": null,
+    "transport_type": "léger",
+    "price": "22000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 294,
+  "fields": {
+    "wilaya_code": "21",
+    "commune": null,
+    "transport_type": "lourd",
+    "price": "38000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 295,
+  "fields": {
+    "wilaya_code": "21",
+    "commune": null,
+    "transport_type": "semi",
+    "price": "45000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 296,
+  "fields": {
+    "wilaya_code": "22",
+    "commune": null,
+    "transport_type": "léger",
+    "price": "18000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 297,
+  "fields": {
+    "wilaya_code": "22",
+    "commune": null,
+    "transport_type": "lourd",
+    "price": "35000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 298,
+  "fields": {
+    "wilaya_code": "22",
+    "commune": null,
+    "transport_type": "semi",
+    "price": "45000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 299,
+  "fields": {
+    "wilaya_code": "23",
+    "commune": null,
+    "transport_type": "léger",
+    "price": "22000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 300,
+  "fields": {
+    "wilaya_code": "23",
+    "commune": null,
+    "transport_type": "lourd",
+    "price": "38000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 301,
+  "fields": {
+    "wilaya_code": "23",
+    "commune": null,
+    "transport_type": "semi",
+    "price": "45000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 302,
+  "fields": {
+    "wilaya_code": "24",
+    "commune": null,
+    "transport_type": "léger",
+    "price": "22000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 303,
+  "fields": {
+    "wilaya_code": "24",
+    "commune": null,
+    "transport_type": "lourd",
+    "price": "38000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 304,
+  "fields": {
+    "wilaya_code": "24",
+    "commune": null,
+    "transport_type": "semi",
+    "price": "45000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 305,
+  "fields": {
+    "wilaya_code": "25",
+    "commune": null,
+    "transport_type": "léger",
+    "price": "18000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 306,
+  "fields": {
+    "wilaya_code": "25",
+    "commune": null,
+    "transport_type": "lourd",
+    "price": "35000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 307,
+  "fields": {
+    "wilaya_code": "25",
+    "commune": null,
+    "transport_type": "semi",
+    "price": "45000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 308,
+  "fields": {
+    "wilaya_code": "26",
+    "commune": null,
+    "transport_type": "léger",
+    "price": "4000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 309,
+  "fields": {
+    "wilaya_code": "26",
+    "commune": null,
+    "transport_type": "lourd",
+    "price": "9000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 310,
+  "fields": {
+    "wilaya_code": "26",
+    "commune": null,
+    "transport_type": "semi",
+    "price": "12000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 311,
+  "fields": {
+    "wilaya_code": "27",
+    "commune": null,
+    "transport_type": "léger",
+    "price": "12000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 312,
+  "fields": {
+    "wilaya_code": "27",
+    "commune": null,
+    "transport_type": "lourd",
+    "price": "26000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 313,
+  "fields": {
+    "wilaya_code": "27",
+    "commune": null,
+    "transport_type": "semi",
+    "price": "30000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 314,
+  "fields": {
+    "wilaya_code": "28",
+    "commune": null,
+    "transport_type": "léger",
+    "price": "16000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 315,
+  "fields": {
+    "wilaya_code": "28",
+    "commune": null,
+    "transport_type": "lourd",
+    "price": "25000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 316,
+  "fields": {
+    "wilaya_code": "28",
+    "commune": null,
+    "transport_type": "semi",
+    "price": "35000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 317,
+  "fields": {
+    "wilaya_code": "29",
+    "commune": null,
+    "transport_type": "léger",
+    "price": "18000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 318,
+  "fields": {
+    "wilaya_code": "29",
+    "commune": null,
+    "transport_type": "lourd",
+    "price": "35000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 319,
+  "fields": {
+    "wilaya_code": "29",
+    "commune": null,
+    "transport_type": "semi",
+    "price": "45000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 320,
+  "fields": {
+    "wilaya_code": "31",
+    "commune": null,
+    "transport_type": "léger",
+    "price": "16000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 321,
+  "fields": {
+    "wilaya_code": "31",
+    "commune": null,
+    "transport_type": "lourd",
+    "price": "25000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 322,
+  "fields": {
+    "wilaya_code": "31",
+    "commune": null,
+    "transport_type": "semi",
+    "price": "35000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 323,
+  "fields": {
+    "wilaya_code": "32",
+    "commune": null,
+    "transport_type": "léger",
+    "price": "22000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 324,
+  "fields": {
+    "wilaya_code": "32",
+    "commune": null,
+    "transport_type": "lourd",
+    "price": "38000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 325,
+  "fields": {
+    "wilaya_code": "32",
+    "commune": null,
+    "transport_type": "semi",
+    "price": "45000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 326,
+  "fields": {
+    "wilaya_code": "34",
+    "commune": null,
+    "transport_type": "léger",
+    "price": "12000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 327,
+  "fields": {
+    "wilaya_code": "34",
+    "commune": null,
+    "transport_type": "lourd",
+    "price": "26000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 328,
+  "fields": {
+    "wilaya_code": "34",
+    "commune": null,
+    "transport_type": "semi",
+    "price": "30000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 329,
+  "fields": {
+    "wilaya_code": "35",
+    "commune": null,
+    "transport_type": "léger",
+    "price": "5000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 330,
+  "fields": {
+    "wilaya_code": "35",
+    "commune": null,
+    "transport_type": "lourd",
+    "price": "10000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 331,
+  "fields": {
+    "wilaya_code": "35",
+    "commune": null,
+    "transport_type": "semi",
+    "price": "14000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 332,
+  "fields": {
+    "wilaya_code": "36",
+    "commune": null,
+    "transport_type": "léger",
+    "price": "30000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 333,
+  "fields": {
+    "wilaya_code": "36",
+    "commune": null,
+    "transport_type": "lourd",
+    "price": "45000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 334,
+  "fields": {
+    "wilaya_code": "36",
+    "commune": null,
+    "transport_type": "semi",
+    "price": "60000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 335,
+  "fields": {
+    "wilaya_code": "38",
+    "commune": null,
+    "transport_type": "léger",
+    "price": "7500.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 336,
+  "fields": {
+    "wilaya_code": "38",
+    "commune": null,
+    "transport_type": "lourd",
+    "price": "12000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 337,
+  "fields": {
+    "wilaya_code": "38",
+    "commune": null,
+    "transport_type": "semi",
+    "price": "18000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 338,
+  "fields": {
+    "wilaya_code": "39",
+    "commune": null,
+    "transport_type": "léger",
+    "price": "30000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 339,
+  "fields": {
+    "wilaya_code": "39",
+    "commune": null,
+    "transport_type": "lourd",
+    "price": "45000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 340,
+  "fields": {
+    "wilaya_code": "39",
+    "commune": null,
+    "transport_type": "semi",
+    "price": "60000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 341,
+  "fields": {
+    "wilaya_code": "40",
+    "commune": null,
+    "transport_type": "léger",
+    "price": "22000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 342,
+  "fields": {
+    "wilaya_code": "40",
+    "commune": null,
+    "transport_type": "lourd",
+    "price": "38000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 343,
+  "fields": {
+    "wilaya_code": "40",
+    "commune": null,
+    "transport_type": "semi",
+    "price": "45000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 344,
+  "fields": {
+    "wilaya_code": "41",
+    "commune": null,
+    "transport_type": "léger",
+    "price": "30000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 345,
+  "fields": {
+    "wilaya_code": "41",
+    "commune": null,
+    "transport_type": "lourd",
+    "price": "45000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 346,
+  "fields": {
+    "wilaya_code": "41",
+    "commune": null,
+    "transport_type": "semi",
+    "price": "60000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 347,
+  "fields": {
+    "wilaya_code": "42",
+    "commune": null,
+    "transport_type": "léger",
+    "price": "5000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 348,
+  "fields": {
+    "wilaya_code": "42",
+    "commune": null,
+    "transport_type": "lourd",
+    "price": "10000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 349,
+  "fields": {
+    "wilaya_code": "42",
+    "commune": null,
+    "transport_type": "semi",
+    "price": "14000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 350,
+  "fields": {
+    "wilaya_code": "43",
+    "commune": null,
+    "transport_type": "léger",
+    "price": "18000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 351,
+  "fields": {
+    "wilaya_code": "43",
+    "commune": null,
+    "transport_type": "lourd",
+    "price": "35000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 352,
+  "fields": {
+    "wilaya_code": "43",
+    "commune": null,
+    "transport_type": "semi",
+    "price": "45000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 353,
+  "fields": {
+    "wilaya_code": "44",
+    "commune": null,
+    "transport_type": "léger",
+    "price": "7500.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 354,
+  "fields": {
+    "wilaya_code": "44",
+    "commune": null,
+    "transport_type": "lourd",
+    "price": "12000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 355,
+  "fields": {
+    "wilaya_code": "44",
+    "commune": null,
+    "transport_type": "semi",
+    "price": "18000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 356,
+  "fields": {
+    "wilaya_code": "46",
+    "commune": null,
+    "transport_type": "léger",
+    "price": "18000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 357,
+  "fields": {
+    "wilaya_code": "46",
+    "commune": null,
+    "transport_type": "lourd",
+    "price": "35000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 358,
+  "fields": {
+    "wilaya_code": "46",
+    "commune": null,
+    "transport_type": "semi",
+    "price": "45000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 359,
+  "fields": {
+    "wilaya_code": "47",
+    "commune": null,
+    "transport_type": "léger",
+    "price": "30000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 360,
+  "fields": {
+    "wilaya_code": "47",
+    "commune": null,
+    "transport_type": "lourd",
+    "price": "45000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 361,
+  "fields": {
+    "wilaya_code": "47",
+    "commune": null,
+    "transport_type": "semi",
+    "price": "60000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 362,
+  "fields": {
+    "wilaya_code": "48",
+    "commune": null,
+    "transport_type": "léger",
+    "price": "12000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 363,
+  "fields": {
+    "wilaya_code": "48",
+    "commune": null,
+    "transport_type": "lourd",
+    "price": "26000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 364,
+  "fields": {
+    "wilaya_code": "48",
+    "commune": null,
+    "transport_type": "semi",
+    "price": "30000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 365,
+  "fields": {
+    "wilaya_code": "51",
+    "commune": null,
+    "transport_type": "léger",
+    "price": "22000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 366,
+  "fields": {
+    "wilaya_code": "51",
+    "commune": null,
+    "transport_type": "lourd",
+    "price": "38000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 367,
+  "fields": {
+    "wilaya_code": "51",
+    "commune": null,
+    "transport_type": "semi",
+    "price": "45000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 368,
+  "fields": {
+    "wilaya_code": "57",
+    "commune": null,
+    "transport_type": "léger",
+    "price": "30000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 369,
+  "fields": {
+    "wilaya_code": "57",
+    "commune": null,
+    "transport_type": "lourd",
+    "price": "45000.00"
+  }
+},
+{
+  "model": "ecommerce.shippingcost",
+  "pk": 370,
+  "fields": {
+    "wilaya_code": "57",
+    "commune": null,
+    "transport_type": "semi",
+    "price": "60000.00"
+  }
+}
+]
