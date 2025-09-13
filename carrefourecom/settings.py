@@ -141,9 +141,9 @@ LOGOUT_REDIRECT_URL = '/'  # Redirects to the login page after logging out
 
 
 
-SATIM_USERNAME = "SAT2506300250"
-SATIM_PASSWORD = "satim120"
-SATIM_TERMINAL_ID = "E010901567"
+SATIM_USERNAME = ""
+SATIM_PASSWORD = ""
+SATIM_TERMINAL_ID = ""
 SATIM_REGISTER_URL = "https://test.satim.dz/payment/rest/register.do"
 SATIM_CONFIRM_URL = "https://test.satim.dz/payment/rest/confirmOrder.do"
 SATIM_RETURN_URL = "https://store.lecarrefouremballage.dz/cib/return/"
@@ -162,12 +162,12 @@ CSRF_COOKIE_SECURE = True
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 
-EMAIL_HOST = 'smtp.protonmail.ch'
+EMAIL_HOST = ''
 EMAIL_PORT = 587                   # ✅ Port for STARTTLS
 EMAIL_USE_TLS = True              # ✅ Required for port 587
-EMAIL_HOST_USER = 'contact@lecarrefouremballage.dz'  # Your Proton address
-EMAIL_HOST_PASSWORD = 'RBJ8QMZG8JSJ9E6S'             # Your SMTP token
-DEFAULT_FROM_EMAIL = 'contact@lecarrefouremballage.dz'
+EMAIL_HOST_USER = ''  # Your Proton address
+EMAIL_HOST_PASSWORD = ''             # Your SMTP token
+DEFAULT_FROM_EMAIL = ''
 
 
 LOGGING = {
